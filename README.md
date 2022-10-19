@@ -21,7 +21,7 @@ All contributions, bug reports, bug fixes, improvements, enhancements, and ideas
 - PRs will be merged after proper review.
 - Explain about the changes you did in the PR comments.
 
-<!-- ## Our Awesome contributors 🤩:
+## Our Awesome contributors 🤩:
 <a href="https://github.com/sinisterlord/Hacktoberfest2022/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=ss020182003/Hacktoberfest2022" />
-</a> -->
+  <img src="https://contributors-img.web.app/image?repo=thamesweb/WebX-Projects" />
+</a>
