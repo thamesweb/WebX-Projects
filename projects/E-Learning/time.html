@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TinkerHat Foundation</title>
+
+    <link
+      rel="icon"
+      href="./assets/logo/favicon.png"
+      type="image/png"
+      sizes="16x16"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./assets/css/dashboard.css" />
+    <link rel="stylesheet" href="./assets/css/login.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="menu-active">
+    <!-- Navigation -->
+    <nav id="slide-menu">
+      <div class="wrap">
+        <ul>
+          <li><img src="./assets/logo/img_258083.png" class="user-logo" /></li>
+          <li>Welcome!</li>
+          <li>
+            <i class="fas fa-user"></i>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <i class="far fa-calendar-check"></i>
+            <a href="">User Name</a>
+          </li>
+          <li>
+            <i class="fas fa-laptop-code"></i>
+            <a href="">Full Name</a>
+          </li>
+          <li>
+            <i class="fas fa-users"></i>
+            <a href="">Grade</a>
+          </li>
+          <li>
+            <i class></i>
+            <a href=""> Upcoming Courses</a>
+          </li>
+          <li>
+            <i class></i>
+            <a href=""> Courses In progress</a>
+          </li>
+          <li>
+            <i class></i>
+            <a href="">Courses Not Started Yet</a>
+          </li>
+          <li>
+            <i class="fas fa-sign-out-alt"></i>
+            <a href="index.html">Sign Out</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Content panel -->
+
+    <div id="content">
+      <div class="menu-trigger"></div>
+      <div class="heading">Ongoing classes</div>
+      <div class="meetings">
+        
+        <div class="meetings-out">
+          <div class="meetings-in">
+            <div class="meetings-attendance">
+              <a href="" title="Click here to mark your attendance"
+                ><button class="meetings-button">
+                  <i class="fas fa-calendar-check"></i> Join Class
+                </button></a
+              >
+            </div>
+            <div class="meetings-time" id="meetingtimer">
+              <i class="fas fa-clock"></i> 18:00 - 20:00 P.M.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="heading">Upcoming Classes</div>
+      <div class="meetings">
+        
+        <div class="meetings-out">
+          <div class="meetings-in">
+            <div class="meetings-date">
+              <i class="fas fa-calendar-week"></i> 26th June 2022
+            </div>
+            <div class="meetings-time">
+              <i class="fas fa-clock"></i> 17:00 - 20:00
+            </div>
+          </div>
+
+          <div class="meetings-in">
+            <div class="meetings-date">
+              <i class="fas fa-calendar-week"></i> 30th June 2022
+            </div>
+            <div class="meetings-time">
+              <i class="fas fa-clock"></i> 19:00 - 21:00
+            </div>
+          </div>
+
+          <div class="meetings-in">
+            <div class="meetings-date">
+              <i class="fas fa-calendar-week"></i> 1st July 2022
+            </div>
+            <div class="meetings-time">
+              <i class="fas fa-clock"></i> 18:00 - 20:00
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const button = document.querySelector('.meetings-button');
+
+      button.addEventListener('click', popup);
+
+      function popup() {
+        alert('The link for the class is zoom.us!');
+      }
+      const date = new Date();
+      const timer = document.getElementById('meetingtimer');
+      console.log(date.getHours());
+      const min = date.getMinutes() <= 30 ? '00' : 30;
+      timer.innerHTML = `<i class="fas fa-clock"></i> ${date.getHours()}:${min} - ${
+        date.getHours() + 2
+      }:${min}`;
+    </script>
+    <script src="./assets/js/dashboard.js"></script>
+  </body>
+</html>
