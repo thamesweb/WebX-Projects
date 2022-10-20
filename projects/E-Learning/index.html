@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> TinkerHat Foundation </title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/css/events.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7f967191d3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="home"></div>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">
+            <img src="assets\logo\tinkerlogo.png" alt="Logo Image">
+        </div>
+        <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul class="nav-links" id="hellu">
+            <li><a href="#home" class="nav-link-prat">HOME</a></li>
+            <li><a href="#about" class="nav-link-prat">ABOUT US</a></li>
+            <li><a href="#event" class="nav-link-prat">SERVICES</a></li>
+            <li><a href="#contact" class="nav-link-prat">CONTACT</a></li>
+            <li><a href="#jsModal" id="popup" class="jsModalTrigger"><button class="nav-button-prat btn">LOGIN</button></a></li>
+            <!-- <li><a href="#jsModal" id="popup" class="jsModalTrigger"><button class="nav-button-prat btn">Sign-In</button></a></li> -->
+        </ul>
+    </nav>
+
+    <!-- Login -->
+
+    <div id="jsModal" class="modal">
+        <div class="modal__overlay jsOverlay"></div>
+        <div class="modal__container">
+          <div class="heading">Login</div>
+          <button class="modal__close jsModalClose">&#10005;</button>
+            <div class="modal-form">
+                <form id="form-login">
+                <input type="text" placeholder="Username" required id="hello" autocomplete="off" required>
+                <br>
+                <input type="password" placeholder="Password" required id="hello" required>
+                <br><br>
+                <a href="#" id="forget" style="text-decoration: none;"><span style="color: #393a70;">Forget Password?</span></a>
+                <br>
+                <input type="submit" id="hello-submit" value="Login">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- SIGN IN -->
+
+    <!-- <div id="jsModal" class="modal">
+        <div class="modal__overlay jsOverlay"></div>
+        <div class="modal__container">
+          <div class="heading">Sign In</div>
+          <button class="modal__close jsModalClose">&#10005;</button>
+            <div class="modal-form">
+                <form id="form-login">
+                <input type="text" placeholder="First Name" required id="hello" autocomplete="off" required>
+                <br>
+                <input type="text" placeholder="Last Name" required id="hello" autocomplete="off" required>
+                <br>
+                <input type="text" placeholder="User Name" required id="hello" autocomplete="off" required>
+                <br>
+                <input type="text" placeholder="State" required id="hello" autocomplete="off" required>
+                <br>
+                <input type="text" placeholder="City" required id="hello" autocomplete="off" required>
+                <br>
+                <input type="number" placeholder="Phone Number" required id="" autocomplete="off" required>
+                <br>
+                <input type="number" placeholder="Grade" required id="" autocomplete="off" required>
+                <br>
+                <input type="password" placeholder="Password" required id="hello" required>
+                <br><br>
+                <a href="#" id="forget" style="text-decoration: none;"><span style="color: #393a70;">Forget Password?</span></a>
+                <br>
+                <input type="submit" id="hello-submit" value="Sign-In">
+                </form>
+            </div>
+        </div>
+    </div> -->
+
+        <!-- Join Us -->
+
+        <div id="jsModal_prat" class="modal">
+            <div class="modal__overlay jsOverlay"></div>
+            <div class="modal__container">
+              <div class="heading"> Join Us! </div>
+              <button class="modal__close jsModalClose">&#10005;</button>
+              <p style="line-height: 30px;"> As a Student </p> <p style="line-height: 30px;"> As a Volunteer</p> 
+            </div>
+        </div>
+    
+
+    <!-- Home -->
+
+    <div class="main">
+        
+        <div class="main-in">
+            <p class="p1"> <span style="color: white;"> Welcome to</span> <br> TinkerHat Foundation </p>
+            <!-- <p class="p2"> Open Web Application <br> Security Project </p> -->
+            <a href="#wedo" class="btnprat-before"> WHAT WE DO?</a>
+            <a href="#jsModal_prat" class="btnprat-after jsModalTrigger"> JOIN US!</a>
+        </div>
+        <div class="main-in-2">
+            <img src="./assets/images/pic.svg" class="img-main">
+        </div>
+    </div>
+
+    <!-- About -->
+
+    <div id="about" style="position: relative; top: -70px;"></div>
+    <div class="about">
+        <div class="about-in">
+            <img src="./assets/images/pic2.svg" class="img-about">
+        </div>
+        <div class="about-in-2">
+            <div class="heading" style="margin-left: 10px;"> About Us </div>
+            <p class="p1"> TinkerHat Foundation started working in 2020 and officially registered TinkerHat in 2021. In last 1 year they have 
+                established schools with programs in 5 states. Student beneficiaries - 9000+, Teaching staff- 100+, 31 schools. Their
+                current goal is to have a volunteer program in place where they can bridge the gap of accessibility by providing a teacher 
+                volunteer. They are partnered with STEAM EDUCATION which is an innovative approach to learning that uses Science, 
+                Technology, Engineering, Arts and Maths. They conduct various coding workshops, Innovation and Tinkering Lab 
+                sessions which benefits the students. </p>
+        </div>
+</div>
+
+<!-- Fields -->
+
+<div id="wedo" style="position: relative; top: -70px;"></div>
+
+<div class="fields">
+    <div class="bg-fields parallax">
+        <div class="heading"> <i class="fas fa-headset"></i> We Can Help You With  </div>
+    <div class="fields-out">
+
+        <div class="fields-in fields-in-1">
+            <div class="icons">
+                <i class="fas fa-edit fa-4x"></i>
+            </div>
+            <p> Interactive Science Centre </p>
+        </div>
+        <div class="fields-in fields-in-2">
+            <div class="icons">
+                <i class="fas fa-laptop-code fa-4x"></i>
+            </div>
+            <p> Innovation & Tinkering Lab </p>
+        </div>
+        <div class="fields-in fields-in-3">
+            <div class="icons">
+                <i class="fas fa-users fa-4x"></i>
+            </div>
+            <p> Coding Champs </p>
+        </div>
+        <div class="fields-in fields-in-4">
+            <div class="icons">
+                <i class="fas fa-chart-line fa-4x"></i>
+            </div>
+            <p> Value Added Programs </p>
+        </div>
+    </div>
+    </div>
+</div>
+
+<!-- Services -->
+
+<div id="event" style="position: relative; top: -70px;"></div>
+
+<section id="work-a" class="text-center py-3 ayush">
+
+    <div class="heading"><i class="far fa-calendar-alt"></i> Our Services </div>
+    <div class="container">
+        <div class="items">
+            <div class="item">
+                <div class="item-image">
+                    <img src="./assets/images/items/codigo.jpg" alt="" style="height: 100%;">
+                </div>
+                <div class="item-text">
+                    <div class="item-text-wrap">
+                        <!-- <p class="item-text-category"></p> -->
+                        <h2 class="item-text-title">Communication & Documentation</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-image">
+                    <img src="./assets/images/items/ideathon.jpg" alt="" style="height: 100%;">
+                </div>
+                <div class="item-text">
+                    <div class="item-text-wrap">
+                        <!-- <p class="item-text-category"> </p> -->
+                        <h2 class="item-text-title"> Sustainability & Corporate Social Responsibility</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-image">
+                    <img src="./assets/images/items/theta.jpg" alt="" style="height: 100%;">
+                </div>
+                <div class="item-text">
+                    <div class="item-text-wrap">
+                        <!-- <p class="item-text-category"> </p> -->
+                        <h2 class="item-text-title">Content Development in STEAM</h2>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        </div>
+</section>
+
+
+<!-- YT VIDS -->
+
+<div class="ytvids">
+    <div class="bg-fields parallax">
+<div class="heading"> <i class="fab fa-youtube"></i> Demo Video </div>
+
+</div>
+</div>
+</div>
+
+<!-- Contact -->
+
+<div id="contact"></div>
+
+<div class="contacts">
+    <form>
+        <div class="heading"> <i class="fas fa-id-card"></i> Let's Get In Touch </div>
+        <div class="contacts-1">
+            <div class="contacts-1-in-1">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <input type="text" placeholder="Subject" required>
+            </div>
+            <div class="contacts-1-in-2">
+                <textarea placeholder="Your Message" required></textarea>
+            </div>
+        </div>
+    <div class="contacts-2">
+    </div>
+    <div class="submit-btn-prat">
+    <button class="submit-prat">Send Message</button>
+    </div>
+    </form> 
+</div>
+
+
+<!-- Footer -->
+
+<div class="footer">
+    <div class="footer-left">
+        <p>
+            <i class="fas fa-map-marked-alt"></i></a> Tinkerhat Innovation Foundation</p>
+    </div>
+
+    <div class="footer-center">
+        <p>
+           &copy; Tinkerhat Innovation Foundation
+        </p>
+    </div>
+
+    <div class="footer-right">
+        <a href="https://www.facebook.com/TinkerHatFoundation/" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="https://www.instagram.com/tif_india/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="https://www.linkedin.com/company/tinkerhat-innovation-foundation-tif/" target="_blank"><i class="fab fa-linkedin fa-2x" style="margin-right: 35px;"></i></a>
+    </div>
+</div>
+
+<script>
+    document.getElementById("forget").addEventListener("click", ()=>{
+        const response=prompt("Enter your registered Email ID : ")
+
+        if(response){
+            alert(`Password reset link sent to ${response}!`)
+        }
+
+        console.log(response)
+    })
+
+     document.getElementById("form-login").addEventListener("submit", (e)=>{
+         e.preventDefault()
+         window.location.replace("home.html")
+    })
+</script>
+
+
+<script src="./assets/js/modal.js"></script>
+<script src="./assets/js/nav.js"></script>
+</body>
+</html>
