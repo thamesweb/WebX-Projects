@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+    }
+    header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('/cafe.jpeg') ;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    }
+    ul{
+        float: right;
+        list-style-type: none;
+        margin-top: 25px;
+    
+    }
+    ul li{
+        display: inline-block;
+    
+    }
+    ul li a{
+        text-decoration: none;
+        color: #fff;
+        padding: 5px 20px;
+        border: 1px solid transparent;	
+        transition: 0.6s ease;
+    
+    }
+    ul li a:hover{
+        background-color:rgba(153,0,51,1);
+        color: rgb(255, 255, 255);	
+    }
+    
+    ul li.active a{
+        background-color: rgba(153,0,51,1);
+        color:  rgb(255, 255, 255);	
+    }
+    .logo img{
+        float: left;
+        width: 150px;
+        height: 100px;
+    }
+    .main{
+        max-width: 1200px;
+        margin: auto;
+    }
+    .title{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    
+    }
+    .title h1{
+        color: #fff;
+        font-size: 70px;
+    }
+    .button{
+        position: absolute;
+        top: 62%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    
+    }
+    .button_a{
+        position: absolute;
+        top: 67%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    
+    }
+    .btn{
+        border: 1px solid #fff;
+        padding: 10px 20px;
+        color: #fff;
+        text-decoration: none;
+        transition: 0.6s ease;
+    
+    }
+    .btn_a{
+        border: 1px solid #fff;
+        padding: 10px 20px;
+        color: #fff;
+        text-decoration: none;
+        transition: 0.6s ease;
+        transform: translateY(15%);
+    
+    }
+    .btn:hover{
+        background-color: #fff;
+        color: #000;
+    }
+    .btn_a:hover{
+        background-color: #fff;
+        color: #000;
+    }
+    .parallax_a {
+        background: url('Images/cade_1.png') no-repeat;
+        background-position: center ;
+        background-size:cover;
+        background-attachment:fixed;
+        height:600px;
+        }   
+    .parallax_b{
+        background: url('Images/Background\ Image\ 1.png') no-repeat;
+        background-position: center ;
+        background-size:cover;
+        background-attachment:fixed;
+        height:600px;
+        }
+        .p_a img{
+            position: relative;
+            height:100%;
+            width:100%;
+            }
+            .parallax_d{
+                background: url('Images/Menu_2.PNG') no-repeat;
+                background-position: center ;
+                background-size:cover;
+                background-attachment:fixed;
+                }
+                .p_g1
+                {
+                    background: url('Images/G1.jpeg') no-repeat;
+                    background-position: center ;
+                    background-size:cover;
+                    background-attachment:fixed;
+                }
+                .p_g2
+                {
+                    background: url('Images/G2.jpeg') no-repeat;
+                    background-position: center ;
+                    background-size:cover;
+                    background-attachment:fixed;
+                }
+                .p_g3
+                {
+                    background: url('Images/G3.jpeg') no-repeat;
+                    background-position: center ;
+                    background-size:cover;
+                    background-attachment:fixed;
+                }
+                .p_g4
+                {
+                    background: url('Images/G4.jpeg') no-repeat;
+                    background-position: center ;
+                    background-size:cover;
+                    background-attachment:fixed;
+                }
+                .p_g5
+                {
+                    background: url('Images/G5.jpeg') no-repeat;
+                    background-position: center ;
+                    background-size:cover;
+                    background-attachment:fixed;
+                }
+                .p_g6
+                {
+                    background: url('Images/G6.jpeg') no-repeat;
+                    background-position: center ;
+                    background-size:cover;
+                    background-attachment:fixed;
+                }
+                .p_g7
+                {
+                    background: url('Images/G7.jpeg') no-repeat;
+                    background-position: center ;
+                    background-size:cover;
+                    background-attachment:fixed;
+                }
+                .p_g8
+                {
+                    background: url('Images/G8.jpeg') no-repeat;
+                    background-position: center ;
+                    background-size:cover;
+                    background-attachment:fixed;
+                }
+                .p_g9
+                {
+                    background: url('Images/G_pizza.jpeg') no-repeat;
+                    background-position: center ;
+                    background-size:cover;
+                    background-attachment:fixed;
+                }
+    .square {
+        position: relative center;
+        margin-left: 10%;
+        margin-top: 10%;
+        width:80%;
+        height: fit-content;
+        padding-bottom: 5%;
+        transform: translateY(25%);
+
+        background-color: rgba(255, 255, 255, 0.797);
+      }
+      .square_new {
+        position: relative center;
+        margin-left: 10%;
+        margin-top: 2%;
+        width:80%;
+        height: fit-content;
+        padding-bottom: 5%;
+        transform:translateY(5%);
+
+        background-color: rgba(255, 255, 255, 0.797);
+      }
+      .square_new_a{
+        position: relative center;
+        margin-left: 10%;
+        margin-top: 2%;
+        width:80%;
+        height: fit-content;
+        padding-bottom: 5%;
+        transform:translateY(5%);
+
+        background-color: rgba(225, 225, 225, 0.797);
+      }
+      .square_n{
+        position: relative center;
+        margin-left: 5%;
+        margin-top: 2%;
+        width:55%;
+        height: 60%;
+        padding-top: 5%;
+        padding-bottom: 15%;
+        transform:translateY(5%);
+
+        background-color: rgba(255, 255, 255, 0.797);
+      }
+      .bb{
+        background: url('Images/Ab.PNG');
+        margin-left: 65%;
+        height:100%;
+        width: 30%;
+        margin-top: -47.01%;
+      }
+      .square_b{
+          size: cover;
+          position: center;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(228, 86, 86, 0);
+      }
+        .square_c{
+        background-position: relative ;
+        top:195px;
+        margin-left: 30%;
+        height: 30%;
+        width: 40%;
+        transform: translateY(120%);
+        background-color: rgba(228, 86, 86, 0.63);
+        }
+        .box{
+            background-position: relative ;
+            margin-left: 19%;
+            height:30%;
+            width: 30%;
+            margin-top: -14.01%;
+            background-color: rgba(228, 86, 86, 0.65);
+        }
+        #wgtmsr{
+            width:150px;   
+            height: 35px;
+            transform: translateY(-6px);
+           }
+           #wgtmsr_a{
+            width:180px;   
+            height: 35px;
+            transform: translateY(-10px);
+           }
+           #wgtmsr_b{
+            width:110px;   
+            height: 35px;
+            transform: translateY(-10px);
+           }
+           #wgtmsr_c{
+            width:130px;   
+            height: 35px;
+            transform: translateY(-5px);
+           }
+    .tbox{
+        background-position: relative ;
+        margin-left: 51%;
+        margin-top: 1%;
+        height: 30%;
+        width: 30%;
+        background-color: rgba(228, 86, 86, 0.63);
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+      }
+      
+      /* Create two equal columns that sits next to each other */
+      .column {
+        flex: 50%;
+        padding: 0 4px;
+      }
+      
+      .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+      }
+      body{background-color: rgba(153,0,51,1)}
+
+      
