@@ -1,0 +1,117 @@
+
+.heading{
+    font-family: 'Abril Fatface', cursive;
+}
+
+.heading2{
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* body{
+    background-color: #d2ba9e !important;
+} */
+
+.navbar
+{
+    background: inherit !important;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.tables{
+    font-size: 0.8rem!important;
+     width: 90% !important; margin-left: auto; 
+     margin-right: auto;
+}
+
+.get-started-button
+{
+    box-shadow: 0px 0px 11px 1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 11px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 11px 1px rgba(0,0,0,0.75);
+}
+
+p{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.admin-pro-button{
+    border: none !important;
+}
+
+
+
+.AddProduct{
+    background-color: #1b1b1bd0;
+    margin: 7% !important;
+    border-radius: 28px;
+    box-shadow: 1px 1px 16px 1px rgba(65, 65, 65, 0.8);
+  -webkit-box-shadow: 1px 1px 16px 1px rgba(65, 65, 65, 0.8);
+  -moz-box-shadow: 1px 1px 16px 1px rgba(65, 65, 65, 0.8);
+    /* text-align: center !important;  */
+     /* align-items: center !important; */
+} 
+
+.new-pro-form{
+    color: seashell ;
+    padding: 5%;
+}
+
+.new-pro-form-boxes{
+    background-color: #b9928b!important;
+    border-radius: 0 !important;
+    border: #b9928b !important;
+    color: white !important;
+    padding: 5% !important;}
+
+    
+    
+    .new-pro-form-boxes{
+        background-color: #eeeade !important;
+        border-radius: 0 !important;
+        border: #eeeade !important;
+        color: #383838 !important;
+        padding: 5% !important;}
+    
+        .upload-pics{
+            background-color: #e9e1d3 !important ;
+            color:#383838 !important ;
+            border: none !important;
+        }
+
+        .dash-cards{
+            background-color: #eeeade;
+            padding: 2%;
+            margin: 1%;
+            border-radius: 40px;
+            text-align: center;
+        }
+
+        .dashboard-body{
+            background-image:url(waves.png);
+            background-repeat: no-repeat;
+        }
+
+        .dash-pro-card
+        {
+        background: #080658;
+        border-radius: 40px;
+        text-align: center;
+        color: #eeeade;
+        font-size: 1rem;
+        }
+
+        .Product-link
+        {
+            text-decoration: none;
+            color: #eeeade;
+        }
+
+        .product-name-links
+        {
+            text-decoration: none;
+            color: #eeeade;
+        }
+            
+
+    

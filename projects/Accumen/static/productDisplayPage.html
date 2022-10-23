@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles(Arshia).css">
+    
+    <title>Product Display Page</title>
+
+</head>
+
+
+
+<body style="background-color: #eeeade;">
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">LOGO</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item dropdown px-2">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Tools
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Tool 1</a>
+            <a class="dropdown-item" href="#">Tool 2</a>
+            <a class="dropdown-item" href="#">Tool 3</a>
+          </div>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link" style="background-color: #eeeade; border-radius: 7px;" href="#">About Us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- END OF NAVBAR -->
+<br><br><br><br>
+    <div class="row justify-content-center">
+        <div class="col-4">
+          <img src="chair.png" alt="" style="width: 90%;">
+        </div>
+        <div class="col-4">
+          <h1 class="heading2" style="font-weight: 1000;">Product Xyz</h1>
+          <br>
+          <p>  This is the product description the manufacturer inputs in the product form that was filled earlier  </p>
+          <br>
+          <p>  Maximum Retail Price: <span> &#8377; 1000</span>  </p>
+          <br>
+          <p> Units In Stock: <span> 10</span></p>
+          <br>
+          <p>  Labour hours : <span>3</span></p>
+        </div>
+      </div>
+
+      <div>
+          <br><br>
+          <h2 class="heading2" style="margin-left: 10%; font-weight: 1000;">Raw Materials Required:</h2>
+          <br>
+          <table class="table tables" >
+            <thead>
+              <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Material Name</th>
+                <th scope="col">Cost</th>
+                <th scope="col">Units Needed</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td colspan="2">Larry the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+          <a href="raw.html"><button type="button" class="btn btn-warning" style="margin-left:46%; color: #796119; ">Add a Raw Material</button></a>
+      </div>
+      <br><br><br>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>
