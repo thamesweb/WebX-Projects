@@ -22,6 +22,6 @@ All contributions, bug reports, bug fixes, improvements, enhancements, and ideas
 - Explain about the changes you did in the PR comments.
 
 ## Our Awesome contributors 🤩:
-<a href="https://github.com/sinisterlord/Hacktoberfest2022/graphs/contributors">
+<a href="https://github.com/thamesweb/WebX-Projects/graphs/contributors">
   <img src="https://contributors-img.web.app/image?repo=thamesweb/WebX-Projects" />
 </a>
