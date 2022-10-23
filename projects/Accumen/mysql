@@ -1,0 +1,11 @@
+mydb=mysql.connector
+
+mydb=mysql.connector.connector(
+    host="localhost",
+    user="root",
+    password="",
+    database="dataentry",)
+
+if mydb.is_connected():
+    print("connected")
+
