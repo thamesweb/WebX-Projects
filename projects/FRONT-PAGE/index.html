@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOTIVATION</title>
+</head>
+    <style>
+body{
+    margin:0px;
+    padding:0px;
+    background:url('pexels-jan-kopřiva-3811731.jpg');
+   background-size:cover;
+}
+.left{
+    display: inline-block;
+    position:absolute;
+    left: 50px;
+    top: 17px;
+    margin: 15px;
+    padding: 15px;
+    width: fit-content;
+    height: 10%;
+}
+#one{
+    margin:2px;
+    padding: 2px;
+    text-align: left;
+    font-family:'Courier New', Courier, monospace;
+    font-style: oblique;
+    color: aliceblue;
+}
+.mid{
+    display: inline-block;
+    margin-top: 20px;
+    position:absolute;
+    left: 33%;
+    cursor: pointer;
+    top:35px;
+    width:max-content;
+    padding: 15px;
+    border: 2px solid rgb(187, 184, 155);
+}
+.right{
+    display: inline-block;
+    border-radius: 2px;
+position: absolute;
+margin: 15px;
+padding: 15px;
+right: 20px;
+top: 50px;
+}
+.navbar{
+display: inline-block;
+color: rgb(27, 54, 146);
+}
+.navbar li{
+   
+    display: inline-block;
+    
+}
+.navbar li a{
+    color: rgb(23, 23, 46);
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  
+}
+.left img{
+    width:100%;
+  height:140%;
+    mask-image: -moz-radial-gradient();
+    border-image: round ;
+   
+}
+.navbar li a :hove,.navbar li a.active{
+    color: rgb(26, 124, 124);
+    text-decoration: underline;
+}
+button{
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color:grey;
+}
+.butt{
+    padding: 5px;
+    margin: 5px;
+    width: 75px;
+    height: 28px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.butt:hover{
+    background-color:grey;
+}
+.form-name{
+    font-size: large;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+
+}
+input{
+   
+    font-size: large;
+    width: fit-content;
+    height: 25px;
+}
+#reset{
+    height: px;
+    margin: 5px;
+    position: absolute;
+    text-align: center;
+
+    top: 287px;
+}
+.contain{
+    width: 500px;
+    height:300px;
+    border: 2px solid black;
+    margin: 60px;
+    padding: 35px;
+    font-size: medium;
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;
+    top: 32%;
+    right: 0%;
+}
+      </style>
+
+<body>
+   <header class="header">
+       <div class="left">
+     <img src="pexels-olenka-sergienko-3806690.jpg" alt="">
+     <div id="one">stay strong</div>
+            </div>
+            <div class="mid">
+                <ul class="navbar">
+                    <li class="active"><a href="#">HOME</a></li>
+                    <li class="active"><a href="#jk">GET HELP</a></li>
+                    <li class="active"><a href="#">MAGAZINE</a></li>
+                    <li class="active"><a href="#">ABOUT US</a></li>
+                    
+           </ul>
+           <div></div>  </div>
+            <div class="right">
+                <button>contact us</button>
+            <button>Sign up</button>
+            </div>
+            <div class="contain">
+               <h1> Join ours class ,Right Now!</h1>
+                <form action="noaction.php">
+                    <div class="form-name">
+                        <input type="text" name="" placeholder="Enter your name">
+                    </div>
+                    <div class="form-name">
+                        <input type="email" name="" placeholder="Enter Your Email">
+                    </div> 
+                    <div class="form-name">
+                        <input type="number" name="" placeholder="Mobile Number">
+                    </div>
+                    <div>
+                        Male  <input type="radio" name="gender" >
+                        Female  <input type="radio"  name="gender" id="">
+                    </div>
+                    <input class="butt"  type="submit" value="Submit">
+                    <input class="butt" type="reset" value="reset" id="reset">
+                </form>
+            </div>
+   </header>
+</body>
+
+</html>
