@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles(Arshia).css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+     
+    <title>
+        Add New Product
+    </title> 
+     
+</head>
+<body style="background: rgb(238,234,222);
+background: linear-gradient(90deg, rgba(238,234,222,1) 0%, rgba(219,202,192,1) 0%, rgba(190,155,147,1) 0%, rgba(185,146,139,1) 0%, rgba(238,234,222,1) 100%);">
+
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">LOGO</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item dropdown px-2">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Tools
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Tool 1</a>
+            <a class="dropdown-item" href="#">Tool 2</a>
+            <a class="dropdown-item" href="#">Tool 3</a>
+          </div>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link" style="background-color: #eeeade; border-radius: 7px;" href="#">About Us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+    <div class="AddProduct row justify-content-center">
+        <div class="col-4">
+            <br><br>
+          <p class="heading" style="font-size: 1.7rem; color: cornsilk; font-weight: 600;">
+              Add Product
+          </p>
+          <form>
+            <div class="form-group mb-3">
+                <label class="new-pro-form heading2" for="name">Product Name
+                </label>
+                <input id="name" name="name" type="text" class=" new-pro-form-boxes form-control validate" required="">
+              </div>
+          <div class="form-group mb-3">
+            <label class="new-pro-form heading2" for="description">Description</label>
+            <textarea class=" new-pro-form-boxes form-control validate" rows="3" required=""></textarea>
+          </div>
+          <div class="form-group mb-3 col-xs-12 col-sm-6">
+            <label class="new-pro-form heading2" for="stock">Labour Hours
+            </label>
+            <input id="labour-hours" name="labour-hours" type="text" class=" new-pro-form-boxes form-control validate" required="">
+          </div>
+          <div class="form-group mb-3 col-xs-12 col-sm-6">
+            <label class="new-pro-form heading2" for="stock">Units In Stock
+            </label>
+            <input id="units" name="units" type="text" class=" new-pro-form-boxes form-control validate" required="">
+            <br>
+            <label class="new-pro-form heading2" for="stock">Product ID
+            </label>
+            <input id="product-id" name="product-id" type="text" class=" new-pro-form-boxes form-control validate" required="">
+
+          </div>
+         
+        </div>
+
+        <div class="col-4">
+            <br><br><br><br><br><br>
+            <div class="form-group mb-3 col-xs-12 col-sm-6" style="margin-left: 50%;">
+                <label class="new-pro-form heading2" for="stock">Maximum Retail Price
+                </label>
+                <input id="mrp" name="mrp" type="text" class=" new-pro-form-boxes form-control validate" required="">
+              </div>
+              <br><br>
+              <p><input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display: none;" multiple></p>
+              <p><label for="file" style="cursor: pointer; color: #eeeade; background-color: #8b5f57 ; padding: 2% ; margin-left: 40%; width: 80%; text-align: center;">UPLOAD IMAGE</label></p>
+              <p><img id="output" width="140%" /></p>
+
+<script>
+var loadFile = function(event) {
+	var image = document.getElementById('output');
+	image.src = URL.createObjectURL(event.target.files[0]);
+};
+</script>
+    </div>
+    <div class="row">
+        <div class="col-md-4 offset-md-3">    
+             <a class="btn btn-primary" href="#" role="button" style="color: #eeeade ; background-color: #8b5f57; border:none; border-radius:0%; width: 150%; padding: 4%;">NEXT</a>
+             <br><br><br>
+             </div>
+            
+        </div>
+      </form>
+      </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>
