@@ -25,3 +25,5 @@ All contributions, bug reports, bug fixes, improvements, enhancements, and ideas
 <a href="https://github.com/thamesweb/WebX-Projects/graphs/contributors">
   <img src="https://contributors-img.web.app/image?repo=thamesweb/WebX-Projects" />
 </a>
+<br>
+Thanks for Contributing...
